@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>texto de aberturasdsadaa!</Text>
+      <Text>texto de aberturas</Text>
       <StatusBar style="auto" />
     </View>
   );
