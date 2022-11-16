@@ -9,7 +9,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.textocor}>texto de aberturas</Text>
-      <Text>{variavel} -> {x}</Text>
+      <Text>{variavel} - {x}</Text>
 
       <StatusBar style="auto" />
     </View>
