@@ -2,9 +2,15 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
+
+  const variavel = 5;
+  const x = ( variavel + 1);
+
   return (
     <View style={styles.container}>
-      <Text>texto de aberturas</Text>
+      <Text style={styles.textocor}>texto de aberturas</Text>
+      <Text>{variavel} -> {x}</Text>
+
       <StatusBar style="auto" />
     </View>
   );
@@ -17,4 +23,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  textocor: {
+    color: 'red',
+  }
 });
