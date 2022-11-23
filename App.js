@@ -9,6 +9,7 @@ export default function App() {
 
   const variavel = 5;
   const x = ( variavel + 1);
+  const textovariavel = 'Aqui cabe um texto';
 
 
   return (
@@ -16,9 +17,15 @@ export default function App() {
       <Text style={styles.textocor}>texto de aberturas</Text>
       <Text>{variavel} - {x}</Text>
       <View>
-        <Image source={fototeste} style={styles.foto}></Image>
-        <Tela1 titulo='O Palmeiras é Campeão' vezes={x} />
-        <Tela2 />
+        <View style={styles.viewdafoto}>
+          <Image source={fototeste} style={styles.foto}></Image>
+        </View>
+        <View>
+          <Tela1 titulo='O Palmeiras é Campeão' vezes={x} />
+        </View>
+        <View>
+          <Tela2 />
+        </View>
       </View>
       <StatusBar style="auto" />
     </View>
@@ -39,5 +46,12 @@ const styles = StyleSheet.create({
   foto: {
     width: 33,
     height: 31,
+  },
+  viewdafoto: {
+    justifyContent: 'center',
+    alignItems:'center',
+    width:340,
+    height: 45,
+    backgroundColor: '#ffb900',
   }
 });
