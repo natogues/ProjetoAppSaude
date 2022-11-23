@@ -17,7 +17,7 @@ export default function App() {
       <Text>{variavel} - {x}</Text>
       <View>
         <Image source={fototeste} style={styles.foto}></Image>
-        <Tela1 />
+        <Tela1 titulo='O Palmeiras é Campeão' vezes={x} />
         <Tela2 />
       </View>
       <StatusBar style="auto" />

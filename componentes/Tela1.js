@@ -2,11 +2,11 @@ import React from 'react';
 import {Text, View} from 'react-native';
 
 
-const Tela1 = () => {
+const Tela1 = (props) => {
 
         return(
             <View>
-                <Text>Tela 1 funcionando</Text>
+                <Text>{props.titulo} e ganhou o campeonato mundial {props.vezes} vezes.</Text>
             </View>
         )
 
