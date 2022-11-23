@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { startTransition } from 'react';
 import { StyleSheet, Text, View, Image} from 'react-native';
+import fototeste from './assets/ico_printer.png';
 
 export default function App() {
 
@@ -12,7 +13,9 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.textocor}>texto de aberturas</Text>
       <Text>{variavel} - {x}</Text>
-
+      <View>
+        <Image source={fototeste}></Image>
+      </View>
       <StatusBar style="auto" />
     </View>
   );
