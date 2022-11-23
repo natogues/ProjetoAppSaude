@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { startTransition } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image} from 'react-native';
 
 export default function App() {
 
