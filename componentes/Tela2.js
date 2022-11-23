@@ -6,7 +6,7 @@ const Tela2 = () => {
 
         return(
             <View>
-                <Text>Tela 2 funcionando</Text>
+                <Text>Tela 2 funcionando.</Text>
             </View>
         )
 
