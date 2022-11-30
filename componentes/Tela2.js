@@ -4,12 +4,16 @@ import {Text, View} from 'react-native';
 
 const Tela2 = () => {
 
-        return(
+        return(           
             <View>
-                <Text>Tela 2 funcionando.</Text>
+                <Text>{'\n'}Diga isso para o teimoso MATHEUS!!!</Text>
             </View>
-        )
+              
+           )
 
-}
-
+        
+                } 
+                
+                
+                
 export default Tela2
